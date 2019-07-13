@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && npm run watch-node",
+    "tsc":"tsc",
     "build": "rm -rf ./dist/* && npm run build-ts && npm run tslint",
     "watch-node": "nodemon ./dist/server.js",
     "watch-ts": "tsc -w",
